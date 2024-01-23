@@ -602,6 +602,8 @@ body.dark-theme{
 }
 
 
+
+
 /*=============== NEWSLETTER ===============*/
 .newsletter__container{
   position: relative;
@@ -1218,3 +1220,21 @@ body.dark-theme{
   }
 }
 
+.recently_mobile{
+  display: none;
+  width: fit-content;
+  margin: 0 auto;
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .recently_mobile{
+    display: flex;
+
+  }
+  
+  
+  .recently_desktop{
+    display: none;
+  }
+}
